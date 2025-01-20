@@ -6,9 +6,10 @@ A command-line tool for executing various hacking attacks.
 
 1. Clone the repository:
 
-```bash
+
 git clone https://github.com/Intellidevelopers/abefe_hacktool.git
 cd hack-tool
+```bash
 
 pip install -r requirements.txt
 
@@ -25,3 +26,7 @@ Select an attack from the list below:
 9. Data Exfiltration
 10. Web Application Attack
 11. Network Attack
+
+## To run the script
+
+python abefe_hacktool.py
