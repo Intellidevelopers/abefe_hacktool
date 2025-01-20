@@ -1,13 +1,13 @@
 # Hack Tool
 
-A command-line tool for simulating various hacking attacks.
+A command-line tool for executing various hacking attacks.
 
 ## Installation
 
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/hack-tool.git
+git clone https://github.com/Intellidevelopers/abefe_hacktool.git
 cd hack-tool
 
 pip install -r requirements.txt
