@@ -33,6 +33,7 @@ def track_device():
         "Country": "Nigeria",
         "Status": "ON",
         "Last Online": "2 minutes ago",
+        "Notice": "To get accurate information you need to purchase a premium version: contact via whatsapp +2348087112167 or devteamjtech@gmail.com",
     }
     console.print("[bold cyan]Device Location Details:[/bold cyan]")
     for key, value in device_location.items():
@@ -76,6 +77,7 @@ def credit_card_attack():
 
 def main():
     console.print("[bold yellow]Abefe Card Wizard Hacking Tool[/bold yellow]")
+    console.print("[bold green]To get accurate information you need to purchase a premium version: contact via whatsapp +2348087112167 or devteamjtech@gmail.com[/bold green]")
     console.print("[bold cyan]Select an attack from the list below:[/bold cyan]")
 
     attacks = [
