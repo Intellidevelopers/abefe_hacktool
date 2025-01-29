@@ -1,6 +1,8 @@
 # Hack Tool
 
 A command-line tool for executing various hacking attacks.
+IP ADDRESS: this is a new feature added recently to find any ip address accurately.
+Navigate to iptracker.py to execute
 
 ## Installation
 
