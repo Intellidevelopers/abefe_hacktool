@@ -16,24 +16,24 @@ def display_binary_theme():
 
 
 def track_device():
-    console.print("[bold magenta]Track Device (IMEI) Selected[/bold magenta]")
+    console.print("[bold magenta]Track Phone Number Location Selected[/bold magenta]")
     display_binary_theme()
 
-    imei_number = Prompt.ask("[bold cyan]Enter your device's IMEI number[/bold cyan]")
-    console.print(f"[bold yellow]Tracking device with IMEI: {imei_number}...[/bold yellow]")
+    imei_number = Prompt.ask("[bold cyan]Enter victim's phone number[/bold cyan]")
+    console.print(f"[bold yellow]Tracking device with Phone number: {imei_number}...[/bold yellow]")
 
     for _ in track(range(100), description="Tracing device location..."):
         time.sleep(0.05)
 
     device_location = {
-        "Street": "Baba Rere Crescent",
-        "House Number": "221B",
+        "Street": "Kenneth Dike Way, Bodija",
+        "House Number": "42",
         "City": "Ibadan",
         "State": "Oyo",
         "Country": "Nigeria",
         "Status": "ON",
-        "Last Online": "2 minutes ago",
-        "Notice": "To get accurate information you need to purchase a premium version: contact via whatsapp +2348087112167 or devteamjtech@gmail.com",
+        "Last Online": "45 minutes ago",
+        "Notice": "To get more information you need to purchase a premium version: contact via whatsapp +2348087112167 or devteamjtech@gmail.com",
     }
     console.print("[bold cyan]Device Location Details:[/bold cyan]")
     for key, value in device_location.items():
@@ -81,7 +81,9 @@ def main():
     console.print("[bold cyan]Select an attack from the list below:[/bold cyan]")
 
     attacks = [
+        "Track Phone Number Location",
         "Track Device (IMEI)",
+        "Track IP Address",
         "Shutdown Website Attack",
         "Phishing Attack",
         "Credit Card Attack",
@@ -103,7 +105,7 @@ def main():
     console.print(f"[green]You selected: [bold]{selected_attack}[/bold][/green]")
     console.print("[cyan]Executing attack...[/cyan]")
 
-    if selected_attack == "Track Device (IMEI)":
+    if selected_attack == "Track Phone Number Location":
         track_device()
     elif selected_attack == "Credit Card Attack":
         credit_card_attack()
